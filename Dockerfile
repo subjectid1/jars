@@ -1,7 +1,7 @@
 FROM openjdk:11-slim-buster
 RUN apt update
 RUN apt install -y curl
-RUN curl -L https://public.dm.files.1drv.com/y4mL2LBreudZ4BIPgEhRsYW3OQEAbOOpkN4MPRekCGMuEteyCR1VKN-eCKH0nM8prmMWlzMwMGkJu_q000_4MLXvTZKsjHnOUNCIKavqghbQbwgKL5Hqdk4W8r0A76CjitB8tkFd7iNPJj997kBEgMCrtwEzFScsHxJ2PxLkBQASBaQv45aJwYa0-yWf3wD2ubVQTEyz6AMjx33BMfRbcMLbM1xkkEyyNRdlHBzKf06dIU?AVOverride=1 -o pp.war
+RUN curl -L https://public.dm.files.1drv.com/y4mrONUQJo85INZUG0Nf8BQu9ehkrdwaH26xSBqLb_G0UUPJgHjEf4swFmzAPF3_wmMGsbfdYCSHUNGMlR3vtKiLK_T7p9bDwWxfOIVcdwP5hGbbij75POh-tuadSXTA9-05c7CCFxJwME_Z4oQnuSZrFChCZ0V2XISzISTvzLaUIt3UwHnATeE70eyD5CcMDnKUM5EyyzmW3fCA5LZBCjmK27_WcuWEh6XtCgkTzJAOLc?AVOverride=1 -o pp.war
  
 CMD ["java", "-jar", "pp.war"]
 EXPOSE 8080
